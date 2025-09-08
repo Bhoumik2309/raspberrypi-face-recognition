@@ -1,0 +1,19 @@
+sudo apt update
+
+sudo apt full-upgrade
+#run this commands first to upgrade the packages present in raspberrypi
+
+then for project required libraries
+
+pip install opencv-python
+pip install imutils
+sudo apt install cmake
+pip install face-recognition
+
+#this are the four libraries required
+#if any library is not installed means use the following command
+
+pip install opencv-python --break-system-packages
+pip install imutils --break-system-packages
+sudo apt install cmake --break-system-packages
+pip install face-recognition --break-system-packages
